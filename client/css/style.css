@@ -1,0 +1,45 @@
+#form-login {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  #form-login:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  #card-question {
+    margin-top: 150px !important;
+  }
+
+  .custom-control.material-checkbox {
+    --color: #26a69a;
+  }
+  .custom-control.material-checkbox .material-control-input {
+    display: none;
+  }
+  .custom-control.material-checkbox .material-control-input:checked ~ .material-control-indicator {
+    border-color: var(--color);
+    -webkit-transform: rotateZ(45deg) translate(1px, -5px);
+    transform: rotateZ(45deg) translate(1px, -5px);
+    width: 10px;
+    border-top: 0px solid #fff;
+    border-left: 0px solid #fff;
+    -moz-transform: rotateZ(45deg) translate(1px, -5px);
+    -ms-transform: rotateZ(45deg) translate(1px, -5px);
+    -o-transform: rotateZ(45deg) translate(1px, -5px);
+}
+  .custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #aaa;
+    transition: .3s;
+  }
+  
